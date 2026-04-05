@@ -1,0 +1,11 @@
+{
+  "name": "mobile-patrols",
+  "private": true,
+  "scripts": {
+    "start": "serve . -l 3000",
+    "build": "node -e \"process.exit(0)\""
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

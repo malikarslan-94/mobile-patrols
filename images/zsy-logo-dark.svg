@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 68" width="280" height="68">
+  <defs>
+    <style>
+      .brand { font-family: 'Arial Black','Arial','Helvetica Neue','Helvetica',sans-serif; font-weight: 900; }
+      .sub { font-family: 'Arial','Helvetica Neue','Helvetica',sans-serif; font-weight: 400; }
+    </style>
+  </defs>
+
+  <!--
+    Abstract eagle mark — dark version for light backgrounds.
+  -->
+  <g transform="translate(0, 1)">
+    <!-- LEFT WING: three parallel blade feathers going upper-left -->
+    <polygon points="28,34 31,30 8,2 5,6" fill="#0a1f44"/>
+    <polygon points="33,35 36,31 17,8 14,12" fill="#0a1f44"/>
+    <polygon points="38,36 41,32 26,14 23,18" fill="#0a1f44"/>
+
+    <!-- RIGHT WING: bold stroke going upper-right -->
+    <polygon points="33,34 37,30 58,4 54,2" fill="#0a1f44"/>
+
+    <!-- RIGHT WING SHADOW -->
+    <polygon points="37,36 40,32 57,10 54,14" fill="#c9a030" opacity="0.55"/>
+
+    <!-- TAIL / BODY -->
+    <polygon points="20,26 24,24 54,58 50,60" fill="#0a1f44"/>
+
+    <!-- TAIL SHADOW -->
+    <polygon points="26,24 29,22 52,52 49,54" fill="#c9a030" opacity="0.4"/>
+  </g>
+
+  <!-- ESTD '24 rotated text -->
+  <text x="64" y="62" font-family="'Arial','Helvetica',sans-serif" font-weight="400"
+        fill="#0a1f44" font-size="5.5" letter-spacing="1.5" opacity="0.45"
+        transform="rotate(-90, 64, 62)">ESTD '24</text>
+
+  <!-- ZSY -->
+  <text x="76" y="36" class="brand" fill="#0a1f44" font-size="30"
+        letter-spacing="8">ZSY</text>
+
+  <!-- SERVICES -->
+  <text x="76" y="54" class="sub" fill="#c9a030" font-size="10.5"
+        letter-spacing="5.5">SERVICES</text>
+</svg>

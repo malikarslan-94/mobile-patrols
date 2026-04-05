@@ -1,0 +1,43 @@
+/* Floating WhatsApp — right side, stacked above scroll-to-top (.scroll-top: bottom 30px, h 50px) */
+.whatsapp-float {
+  position: fixed;
+  right: 50px;
+  /* 30px + 50px scroll button + 14px gap */
+  bottom: calc(30px + 50px + 14px);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25d366;
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  line-height: 1;
+  z-index: 1000;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.whatsapp-float:hover,
+.whatsapp-float:focus {
+  color: #fff !important;
+  transform: scale(1.06);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.55);
+  outline: none;
+}
+
+.whatsapp-float:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
+@media (max-width: 575px) {
+  .whatsapp-float {
+    width: 52px;
+    height: 52px;
+    font-size: 28px;
+    right: 24px;
+    bottom: calc(30px + 50px + 12px);
+  }
+}

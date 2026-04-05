@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70" width="320" height="70">
+  <defs>
+    <linearGradient id="p1navy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d2137"/>
+      <stop offset="100%" stop-color="#14345a"/>
+    </linearGradient>
+    <linearGradient id="p1gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c9a227"/>
+      <stop offset="50%" stop-color="#e8c252"/>
+      <stop offset="100%" stop-color="#c9a227"/>
+    </linearGradient>
+  </defs>
+  <!--
+    Concept: The letter Z is constructed from two triangles that
+    together form a shield silhouette. The diagonal of the Z becomes
+    a blade/division line. Geometric precision, dual meaning.
+  -->
+  <g transform="translate(6,5)">
+    <!-- Upper triangle of Z = top of shield -->
+    <path d="M4 4 L52 4 L52 12 L20 12 Z" fill="url(#p1navy)"/>
+    <!-- Diagonal bar of Z = the dividing slash -->
+    <path d="M48 10 L12 48" stroke="url(#p1gold)" stroke-width="4" stroke-linecap="round"/>
+    <!-- Lower triangle of Z = base of shield -->
+    <path d="M4 46 L36 46 L4 54 L52 54 Z" fill="url(#p1navy)"/>
+    <!-- Shield silhouette outline to unify -->
+    <path d="M4 4 L52 4 L52 36 C52 48 28 60 28 60 C28 60 4 48 4 36 Z"
+          fill="none" stroke="url(#p1navy)" stroke-width="1.5" opacity="0.15"/>
+  </g>
+
+  <!-- Typography: clean, custom-spaced -->
+  <g>
+    <!-- Z - slightly larger, acts as the brand anchor -->
+    <text x="72" y="42" font-family="'Georgia','Times New Roman',serif" font-weight="700"
+          fill="#0d2137" font-size="38" letter-spacing="1">Z</text>
+    <!-- SY - matched weight, tighter -->
+    <text x="96" y="42" font-family="'Georgia','Times New Roman',serif" font-weight="400"
+          fill="#0d2137" font-size="38" letter-spacing="1">SY</text>
+  </g>
+
+  <!-- SERVICES: refined, widely spaced, uppercase -->
+  <text x="73" y="58" font-family="'Arial','Helvetica',sans-serif" font-weight="400"
+        fill="#b8945a" font-size="9.5" letter-spacing="7">SERVICES</text>
+
+  <!-- Subtle gold accent line between name and tagline -->
+  <rect x="73" y="47" width="72" height="1" fill="url(#p1gold)" opacity="0.6"/>
+</svg>

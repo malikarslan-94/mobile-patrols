@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70" width="320" height="70">
+  <defs>
+    <linearGradient id="p5navy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091828"/>
+      <stop offset="100%" stop-color="#142e52"/>
+    </linearGradient>
+    <linearGradient id="p5gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ae8920"/>
+      <stop offset="50%" stop-color="#e8cc5e"/>
+      <stop offset="100%" stop-color="#ae8920"/>
+    </linearGradient>
+  </defs>
+  <!--
+    Concept: Diamond/gem-cut precision mark. A diamond shape (rotated square)
+    contains the brand initial. Communicates precision, value, and sharpness.
+    The facets suggest cutting-edge security.
+  -->
+  <g transform="translate(6,3)">
+    <!-- Outer diamond -->
+    <rect x="4" y="4" width="56" height="56" rx="3" fill="url(#p5navy)"
+          transform="rotate(45,32,32)" />
+
+    <!-- Inner diamond facet lines -->
+    <line x1="32" y1="2" x2="32" y2="62" stroke="#ffffff" stroke-width="0.4" opacity="0.15"/>
+    <line x1="2" y1="32" x2="62" y2="32" stroke="#ffffff" stroke-width="0.4" opacity="0.15"/>
+
+    <!-- Gold inner frame -->
+    <rect x="12" y="12" width="40" height="40" rx="2" fill="none" stroke="url(#p5gold)"
+          stroke-width="0.8" transform="rotate(45,32,32)"/>
+
+    <!-- Z letterform - custom angular -->
+    <path d="M20 22 L44 22 L44 27 L28 40 L44 40 L44 45 L20 45 L20 40 L36 27 L20 27 Z"
+          fill="url(#p5gold)"/>
+  </g>
+
+  <!-- Brand name -->
+  <text x="80" y="34" font-family="'Georgia','Times New Roman',serif" font-weight="700"
+        fill="#091828" font-size="28" letter-spacing="6">ZSY</text>
+
+  <!-- Subtle line -->
+  <line x1="80" y1="42" x2="168" y2="42" stroke="url(#p5gold)" stroke-width="0.8"/>
+
+  <!-- SERVICES - clean, premium -->
+  <text x="80" y="56" font-family="'Arial','Helvetica',sans-serif" font-weight="300"
+        fill="#777" font-size="10" letter-spacing="8">SERVICES</text>
+</svg>
