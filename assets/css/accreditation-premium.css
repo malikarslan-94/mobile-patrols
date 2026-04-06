@@ -1,0 +1,114 @@
+/* About page — premium accreditations cards */
+
+.accreditation-section {
+  padding: 80px 0;
+  background-color: #fcfcfc;
+}
+
+/*
+ * Bootstrap .row is flex + stretch; margin on a height:100% card inside a col
+ * often produces no visible gap between rows. Space the columns instead and
+ * let the card flex to equal heights within each row.
+ */
+.accreditation-section .row > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+
+.accreditation-card {
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  border-top: 5px solid transparent;
+  border-image: linear-gradient(90deg, #d4af37, #f1e5ac, #d4af37) 1;
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.accreditation-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.2);
+}
+
+.card-header-premium {
+  background: linear-gradient(135deg, #1e3c72 0%, #1a1a2e 100%);
+  padding: 40px 20px 60px 20px;
+  position: relative;
+  clip-path: ellipse(120% 100% at 50% 0%);
+}
+
+.card-header-premium h3 {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.icon-container {
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  border: 4px solid #1e3c72;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -45px auto 20px;
+  position: relative;
+  z-index: 2;
+  box-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.2),
+    inset 0 0 10px rgba(212, 175, 55, 0.5);
+}
+
+.icon-container i {
+  background: linear-gradient(135deg, #1e3c72, #1a1a2e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px !important;
+}
+
+.icon-container--image {
+  padding: 8px;
+  background: #fff;
+}
+
+.icon-container--image img {
+  width: 100%;
+  max-width: 54px;
+  height: auto;
+  max-height: 54px;
+  object-fit: contain;
+  display: block;
+  border-radius: 4px;
+}
+
+.card-body-premium {
+  padding: 0 25px 30px 25px;
+  flex-grow: 1;
+}
+
+.card-body-premium p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.verified-check {
+  color: #28a745;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  display: block;
+  font-weight: bold;
+}
