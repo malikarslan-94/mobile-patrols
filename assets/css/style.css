@@ -13124,3 +13124,62 @@ a.user-btn-two {
     padding-bottom: 80px;
   }
 }
+
+/** sectors-section **/
+
+.sectors-section {
+  position: relative;
+  padding: 90px 0px 70px 0px;
+  background: #f7f9fc;
+}
+
+.sectors-section .sec-title {
+  margin-bottom: 50px;
+}
+
+.sectors-section .sector-card {
+  position: relative;
+  display: block;
+  background: #fff;
+  border: 1px solid #e7ebf2;
+  border-radius: 10px;
+  padding: 28px 24px 24px 24px;
+  margin-bottom: 30px;
+  min-height: 230px;
+  transition: all 500ms ease;
+}
+
+.sectors-section .sector-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(20, 44, 74, 0.12);
+  border-color: rgba(212, 175, 55, 0.6);
+}
+
+.sectors-section .sector-card .icon-box {
+  position: relative;
+  display: inline-block;
+  width: 58px;
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  border-radius: 50%;
+  background: rgba(10, 31, 68, 0.08);
+  margin-bottom: 16px;
+}
+
+.sectors-section .sector-card .icon-box i {
+  font-size: 24px;
+  color: #0a1f44;
+}
+
+.sectors-section .sector-card h4 {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.sectors-section .sector-card p {
+  font-size: 15px;
+  line-height: 26px;
+  margin: 0px;
+}
