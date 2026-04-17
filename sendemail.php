@@ -5,7 +5,7 @@
  * the browser may download this file instead. The contact form uses FormSubmit for static hosting.
  */
 
-define("RECIPIENT_NAME", "ZSY Services");
+define("RECIPIENT_NAME", "ZSY Security Services");
 define("RECIPIENT_EMAIL", "malikarslan.dev@gmail.com");
 
 $success = false;

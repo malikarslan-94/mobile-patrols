@@ -13183,3 +13183,29 @@ a.user-btn-two {
   line-height: 26px;
   margin: 0px;
 }
+
+/** about page — trust intro (top of story) **/
+
+.about-page-intro {
+  position: relative;
+  padding: 56px 0 48px 0;
+  background: #ffffff;
+  border-bottom: 1px solid #eceff3;
+}
+
+.about-page-intro__inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-page-intro__inner p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #666666;
+  margin: 0 0 18px 0;
+}
+
+.about-page-intro__inner p:last-child {
+  margin-bottom: 0;
+}
