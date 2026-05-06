@@ -6,7 +6,7 @@
  */
 
 define("RECIPIENT_NAME", "ZSY Security Services");
-define("RECIPIENT_EMAIL", "malikarslan.dev@gmail.com");
+define("RECIPIENT_EMAIL", "info@zsyservices.co.uk");
 
 $success = false;
 
