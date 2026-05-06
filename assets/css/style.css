@@ -497,58 +497,6 @@ img {
   top: 24px;
 }
 
-/* Preloader */
-
-.preloader {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 999;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-image: url(../images/icons/preloader.png);
-}
-
-.preloader.style-two {
-  background-image: url(../images/icons/preloader-2.png);
-}
-
-.preloader.style-three {
-  background-image: url(../images/icons/preloader-3.png);
-}
-
-.preloader.style-four {
-  background-image: url(../images/icons/preloader-4.png);
-}
-
-.preloader.style-five {
-  background-image: url(../images/icons/preloader-5.png);
-}
-
-.preloader-close {
-  position: fixed;
-  z-index: 999999;
-  color: #fff;
-  padding: 10px 20px;
-  cursor: pointer;
-  right: 0;
-  bottom: 0;
-  font-weight: 600;
-}
-
-.preloader.style-two .preloader-close {
-}
-
-.preloader.style-three .preloader-close {
-}
-
-.preloader.style-four .preloader-close {
-}
-
-.preloader.style-five .preloader-close {
-}
 
 .loader-wrap {
   position: fixed;
